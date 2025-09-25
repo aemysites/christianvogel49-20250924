@@ -45,3 +45,54 @@
     padding: 40px 32px;
   }
 }
+
+.hero.hero12 {
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgb(0 0 0 / 6%), 0 8px 0 0 #ffd600;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 40px 40px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  overflow: visible;
+}
+
+/* Heading styles for card hero */
+.hero.hero12 h2 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 18px;
+  line-height: 1.2;
+}
+
+/* Bold subheading remains bold and dark */
+.hero.hero12 strong {
+  font-weight: 700;
+  color: #333;
+}
+
+/* Paragraph tweaks for clear separation & balance */
+.hero.hero12 p {
+  color: #333;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+
+.hero.hero12 p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive: reduce padding, keep visual balance */
+@media (width <= 800px) {
+  .hero.hero12 {
+    max-width: 98vw;
+    padding: 22px 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgb(0 0 0 / 6%), 0 7px 0 0 #ffd600;
+  }
+}
