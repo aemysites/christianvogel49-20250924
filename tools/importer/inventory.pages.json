@@ -1,0 +1,464 @@
+{
+  "templates": [
+    {
+      "name": "Recipe Listing",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/Predjedi-prigrizki-in-namazi.html",
+          "uuid": "8da8e3765705da147b9438a21df7e8601ba47fe5"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/mesne-jedi/vse-mesne-jedi.html",
+          "uuid": "fa7c4b0a596ea41be5be94a2b538b20fd97660bd"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/testenine-in-zita.html",
+          "uuid": "d4b7781a2bb9b5a9b0ab07b03dd72d61ac941640"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/ribe-in-morski-sadezi.html",
+          "uuid": "815b5c26a0eb78b7a35702cc1f32569cff4ec756"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/omake-in-priloge.html",
+          "uuid": "1cca56194a15443b9d69a3cd3c97c59696ba89b3"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/mesne-jedi/perutnina.html",
+          "uuid": "7022578a8eb19cb384e83afc09a328399d42992b"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/napitki-ozimnica-zanimivosti.html",
+          "uuid": "e0ece7a3e1213cbdf4b083fb565e15f52018b986"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/solate.html",
+          "uuid": "78d52a905f16850f14f7e661e81effb1e181df8e"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/jedi-s-sampinjoni.html",
+          "uuid": "751287fa87e06563893e110ed1a21a249e3b476d"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/mesne-jedi/govedina.html",
+          "uuid": "6bd252d4a88169c84f337676a82c5cf06fcbe47c"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/mesne-jedi/druge-mesne-jedi.html",
+          "uuid": "1a32d6b39169fcfaa19bc9d7eba9a078ca6e4efc"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/mesne-jedi/svinjina.html",
+          "uuid": "5e530b96870c4d79d2bb8274a4e71be84cd06eb1"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/juhe-in-jedi-na-zlico.html",
+          "uuid": "862fd1bca52df1c6ec581d08a9c5fe84d4cf081b"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/jedi-z-zara.html",
+          "uuid": "76a887b0f63afe1d388c0cc0fcf1c331f7a56e33"
+        }
+      ]
+    },
+    {
+      "name": "'FAQ Page'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/kontakt/kontaktni-obrazec.html",
+          "uuid": "e9dac7e4da56b73ac2f885a0acd28eeaa86fdb9f"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012085.html",
+          "uuid": "f005719597af23cf0499626053e1d85efdbcdc59"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012368.html",
+          "uuid": "90330f96b3a2b27e9483c3c2f53cdc0bea52a83b"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012083.html",
+          "uuid": "2df4a99dfea22dd96df9ce42f2d05b1c11f72c89"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012084.html",
+          "uuid": "53465fa9cd2dd6f56ee793788dc2799bd4d94314"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012015.html",
+          "uuid": "ab25fa86f0a5bdb508678d524b32a0e1fe7086bf"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012008.html",
+          "uuid": "b75c2fc774e88308b36b2bd363c5edf80a4ac8ec"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012004.html",
+          "uuid": "7cb92f7afb89d427973140d54bdb251a9f347d35"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012380.html",
+          "uuid": "ebec8bbf310fbbf11530e1ea9b76290d9e8cf423"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012409.html",
+          "uuid": "0d6222f6a6f8824559f84810fb4b7f48ef59466f"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012411.html",
+          "uuid": "1098a75c32e7df5cfc4d1d8d67801a8500d61dd8"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012453.html",
+          "uuid": "a311b09760bcbcfec918f8e7e9285e84486c7aa8"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012348.html",
+          "uuid": "5e793546e94de83a490e63b19d87c7d3b85a2560"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012355.html",
+          "uuid": "5cb3e487fc8c9a26727a00f0ecbd2840ef2f9f0d"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012014.html",
+          "uuid": "1d788a469d8dafdd1030fabc106d009e7cbba688"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012016.html",
+          "uuid": "5ca045e3a6c9b28fb2aead1befadb6383bda97c2"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012006.html",
+          "uuid": "27a556bc7e0ebd35edda06ab493beca74c6bd396"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000011998.html",
+          "uuid": "1bd6b448b07d620c384b8b71eeb4c57ed9b1e067"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000011999.html",
+          "uuid": "1724c926ca2137b7731b72d229691831ea19b93f"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000011991.html",
+          "uuid": "eb26555a9d2521460c9aa0295253ba376319c3d2"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000011988.html",
+          "uuid": "a871ae797f3e12eee71d8c51cfd3f6b1a872f884"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000011973.html",
+          "uuid": "730348bef982e2d9e6783a04426d1658f56794c0"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000011744.html",
+          "uuid": "087387b4d758100946b42df37e77b6a3f16501f5"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012374.html",
+          "uuid": "5f8c12d241f7d798d1b9b10c00f25cf71fce8b10"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012384.html",
+          "uuid": "9f731f539be6409f93e6f4bfc07b1fb7b2c91c47"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012385.html",
+          "uuid": "831ee0bd3abdbbb31b8a961819f5c548b26ddc99"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012386.html",
+          "uuid": "440c44422b74af81eae3edc68efe1dfdc986bdc9"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012387.html",
+          "uuid": "8d9206e3ea3aaa971746cd07d68d2dc3083b489d"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012388.html",
+          "uuid": "f28dd01abdabfd29ba63e0c45ff502ada2fffa57"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012395.html",
+          "uuid": "6ae63ef747145ad1c61298574e74fe77fa3024df"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012401.html",
+          "uuid": "db97e1f02ed35bff43ac898dcd58fbfd9fcabfbe"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012403.html",
+          "uuid": "39cb0c197e5d126b7223a5900e28034eb6411280"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012405.html",
+          "uuid": "79ab2da5496c5bae8f66b579af9f63179853e88b"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012431.html",
+          "uuid": "6b19e9ce20056ac197e34c7bfd74374f0208636f"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012443.html",
+          "uuid": "47278068e13583b36fe7974a7d6e81f88a39d999"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012448.html",
+          "uuid": "929ff8a39eadd5c1804c0c2d753b0e3943e1766c"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012093.html",
+          "uuid": "8646f9fda0d334e0cd5e98de8feaabfdb4a377cc"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012349.html",
+          "uuid": "b7f2def91b9c4453bf66c9cb88c8a454792e5e48"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012347.html",
+          "uuid": "23d7163ee898879a3503f33ee7e2757f7b1e1d44"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012345.html",
+          "uuid": "741a428cefb3fa8b108568f3149ff8d1b47c7a1f"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012096.html",
+          "uuid": "87b20fceff85c517cb3e5e513c34e44ddca39f3c"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012094.html",
+          "uuid": "25ba0b20f366a9942e9720c7ba5d61d3210a5184"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012089.html",
+          "uuid": "10dc6e720836a1544579d0f102099290818f6ea0"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012092.html",
+          "uuid": "2e57743cd0fde44e993171f6f345cbdcf6d6aff2"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012091.html",
+          "uuid": "5642a08d231d6a7bd57a859912de73442fde324a"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012090.html",
+          "uuid": "2e6c4f4571351834f27c21905651b993ec89e774"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012087.html",
+          "uuid": "a330fa7d3d7dccbba93ba2647e153136d154bb68"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012088.html",
+          "uuid": "9afad1981415c76226cb69979c01834b3cb8eea5"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori/faq.000012086.html",
+          "uuid": "e2895b2270110bbeb27c937d98474bc3d08bdbc8"
+        }
+      ]
+    },
+    {
+      "name": "Shopping Portal",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/tematski-svet.html",
+          "uuid": "cd010865cbd1d263993e4942e6201e83989c411a"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/tematski-svet/sveze-za-vas.html",
+          "uuid": "3bfbdd7cbdf33ff3044f94d1b291813a27520317"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/tematski-svet/ferdo.html",
+          "uuid": "a3280749e71866d1c9e7054d16950f5de5466c73"
+        },
+        {
+          "url": "https://www.hofer.si/sl/ponudba/aktualni-letaki-in-brosure.html",
+          "uuid": "caaaf837aa9250bebf8a3d89e17b20478ddc882d"
+        },
+        {
+          "url": "https://www.hofer.si/sl/ponudba/sadje-in-zelenjava-v-akciji.html",
+          "uuid": "fbb6aed7e12aac663538820eb580a301c5221f5d"
+        },
+        {
+          "url": "https://www.hofer.si/sl/ponudba/preverjanje-zaloge.html",
+          "uuid": "b5e9285bad50b7a6ef9e91ef216bdb985714ebbb"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/tematski-svet/sveze-za-vas/Svezina-je-kakovost.html",
+          "uuid": "e5c1663071afd77b50febb89ff9299a04fa1fea3"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/tematski-svet/nasmeskotek.html",
+          "uuid": "6bf4258582848179f739fe7ecda260ff5340ecee"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/Zamenjaj-znamko-uzivaj-ceneje.html",
+          "uuid": "3852bee5885fa8af88856f47b28f66e2542acbf4"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/tematski-svet/HOFER-festival-nogometa-in-zabave.html",
+          "uuid": "3b7582896584d2d74e81c8770fa5997eb968cbfd"
+        },
+        {
+          "url": "https://www.hofer.si/sl/ponudba/trajno-znizano.html",
+          "uuid": "afaa189513d69bf9a4d27d9829770c9e91097a3d"
+        },
+        {
+          "url": "https://www.hofer.si/sl/sortiment/iz-nase-pekovske-zakladnice.html",
+          "uuid": "bcb097db72ad8f396f0f3c305db68aaef40ed9cd"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/znizujemo-cene.html",
+          "uuid": "159ead38232582ad61e3e2cd478039fd41713ce9"
+        },
+        {
+          "url": "https://www.hofer.si/sl/ponudba/fernomenalni-vikend.html",
+          "uuid": "872b0c308e551e09fde6dfb2850c5f1794c5c2cd"
+        },
+        {
+          "url": "https://www.hofer.si/sl/sortiment.html",
+          "uuid": "a84e935011da0311390eb63d1c50db3a8a8ff328"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer.html",
+          "uuid": "12efa5f4b970c3a3b99ac94c8f288f5c7b54155d"
+        },
+        {
+          "url": "https://www.hofer.si/sl/sortiment/kakovost-iz-slovenije.html",
+          "uuid": "4fad497f7da2b50fc10800593bb3357ddde208b8"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt.html",
+          "uuid": "535ade9ce2acdd9d0105ed52daf4d5d4b8620fc3"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/Preklopi-na-HOFER-znamke.html",
+          "uuid": "a6af4707e0b93966b7bb40d7775e0df1d059aed6"
+        }
+      ]
+    },
+    {
+      "name": "'Thumbnail Grid Listing'",
+      "cluster": 4,
+      "pages": [
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/glavne-jedi.html",
+          "uuid": "61f04647aab965941e2008eb2077bb6247a8bba3"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/osvezilni-recepti.html",
+          "uuid": "aea22871da756b7705b6f9feadf62113b7e664fe"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/sladice-in-pekovski-izdeki.html",
+          "uuid": "9eaa6f38ff2c3fc9a39e16add93a05fd99928c46"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/vegetarijanske-jedi.html",
+          "uuid": "200054a8e1a8fa01817a061fcbaa4a006a447628"
+        }
+      ]
+    },
+    {
+      "name": "Service Overview Template",
+      "cluster": 5,
+      "pages": [
+        {
+          "url": "https://www.hofer.si/sl/storitve/darilne-kartice.html",
+          "uuid": "2f2444802c76e06cbeb48f539c7b0839833ecae5"
+        },
+        {
+          "url": "https://www.hofer.si/sl/storitve/hofer-aplikacija.html",
+          "uuid": "2502c25a7eb75dfda72b8156a62314b6bbeb9bbc"
+        },
+        {
+          "url": "https://www.hofer.si/sl/storitve/hoferjeve-e-novice.html",
+          "uuid": "797052ff423bd9ba235f43b58beec4b1cd5bc21d"
+        },
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov.html",
+          "uuid": "26893e0885c83dbf4fd3038b00d9243890d6ed0f"
+        },
+        {
+          "url": "https://www.hofer.si/sl/storitve.html",
+          "uuid": "043d70051aa634f2a2ff24e0f9decd22a583316d"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/hoferjeve-nagradne-igre.html",
+          "uuid": "ffcd12a8596f3181ce0aeb26c5eb681891d014aa"
+        },
+        {
+          "url": "https://www.hofer.si/sl/storitve/hofer-foto.html",
+          "uuid": "3e8a4d8f9abf057cb56db846ded34947f1a40130"
+        }
+      ]
+    },
+    {
+      "name": "'Directory Listing Page'",
+      "cluster": 6,
+      "pages": [
+        {
+          "url": "https://www.hofer.si/sl/ponudba/Pregled-posebne-ponudbe.html",
+          "uuid": "86bf668fa695be983d5bdf0688e4458daceabbf1"
+        }
+      ]
+    },
+    {
+      "name": "Coupon Page",
+      "cluster": 7,
+      "pages": [
+        {
+          "url": "https://www.hofer.si/sl/storitve/darilne-kartice/preverjanje-dobroimetja.html",
+          "uuid": "7ae540fe41859355a34cebdea033ee7db3f4cdf9"
+        }
+      ]
+    },
+    {
+      "name": "'Basic Content Page'",
+      "cluster": 8,
+      "pages": [
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/tematski-svet/vse-za-gril.html",
+          "uuid": "a270e8bb667de424d2b9450ee065bb5541aa732a"
+        },
+        {
+          "url": "https://www.hofer.si/sl/moj-hofer/tematski-svet/hofer-cena.html",
+          "uuid": "b25d8b66ea5952f0368c0a9d35c0e9592234806f"
+        }
+      ]
+    },
+    {
+      "name": "Recipe Listing Page",
+      "cluster": 9,
+      "pages": [
+        {
+          "url": "https://www.hofer.si/sl/svet-receptov/mesne-jedi.html",
+          "uuid": "923940f919648e50c8ce359557e6240d0cb4e69a"
+        }
+      ]
+    },
+    {
+      "name": "'FAQ and Product Listing Page'",
+      "cluster": 10,
+      "pages": [
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/vprasanja-in-odgovori.html",
+          "uuid": "2ec1536e1c06013024ada9149e086a347cc8c73e"
+        },
+        {
+          "url": "https://www.hofer.si/sl/pomoc-in-kontakt/faq-trgovine.html",
+          "uuid": "53067cfeb8c68f0c7bc8c781d3cab51e3aa56b55"
+        }
+      ]
+    }
+  ]
+}
