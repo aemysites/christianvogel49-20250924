@@ -61,7 +61,6 @@
   }
 }
 
-/* Left: text column */
 .columns.columns13 > div > div:first-child {
   display: flex;
   flex-direction: column;
@@ -84,7 +83,6 @@
   color: #0073b1;
 }
 
-/* Center: image column */
 .columns.columns13 > div > div:nth-child(2) {
   display: flex;
   align-items: center;
@@ -106,7 +104,6 @@
   margin: 0 auto;
 }
 
-/* Right: form column */
 .columns.columns13 > div > div:nth-child(3) {
   display: grid;
   grid-template-areas:
@@ -153,7 +150,6 @@
   }
 }
 
-/* Inputs: side by side (desktop), styled as fields */
 .columns.columns13 > div > div:nth-child(3) > p:nth-child(1) {
   grid-area: input1;
   justify-self: end;
@@ -192,7 +188,6 @@
   vertical-align: middle;
 }
 
-/* Button below inputs, centered, with limited width */
 .columns.columns13 > div > div:nth-child(3) > p:nth-child(3) {
   grid-area: button;
   display: flex;
@@ -218,7 +213,6 @@
   margin-right: auto;
 }
 
-/* Icon inside button */
 .columns.columns13 > div > div:nth-child(3) > p:nth-child(3) img {
   width: 24px;
   height: 24px;
@@ -226,8 +220,126 @@
   vertical-align: middle;
 }
 
-/* Remove extra paragraph margin for a tighter feel */
 .columns.columns13 > div > div > p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+
+.columns.columns15 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;  /* Ensure both columns are equal height */
+  gap: 32px;
+  width: 100%;
+  min-height: 300px;
+}
+
+/* Text Column */
+.columns.columns15 > div > div:first-child {
+  background: #fff;
+  padding: 32px;
+  min-width: 280px;
+  max-width: 48%;
+  flex: 0 0 48%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  padding-bottom: 32px;
+}
+
+/* Orange bar flush with bottom edge of white box, no extra space below */
+.columns.columns15 > div > div:first-child::after {
+  display: block;
+  width: 100%;
+  height: 6px;
+  background: #FFB82B;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0;
+  content: '';
+  z-index: 1;
+}
+
+/* Equal padding on all sides, only space beneath orange bar is its own height */
+
+/* Typography */
+.columns.columns15 > div > div:first-child h2 {
+  color: #222;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.columns.columns15 > div > div:first-child ul {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.columns.columns15 > div > div:first-child li {
+  margin-bottom: 8px;
+}
+
+/* Image Column */
+.columns.columns15 > div > .columns-img-col {
+  flex: 0 0 52%;
+  max-width: 52%;
+  min-width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.columns.columns15 > div > .columns-img-col picture,
+.columns.columns15 > div > .columns-img-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border: none;
+  box-shadow: none;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Remove extra spacing so image is flush right */
+
+/* Responsive stacking for smaller screens */
+@media (width <= 900px) {
+  .columns.columns15 > div {
+    flex-direction: column;
+    gap: 24px;
+    min-height: unset;
+  }
+
+  .columns.columns15 > div > div:first-child,
+  .columns.columns15 > div > .columns-img-col {
+    max-width: 100%;
+    flex: 1 1 100%;
+    min-width: 0;
+    height: auto;
+  }
+
+  .columns.columns15 > div > div:first-child {
+    padding: 24px;
+  }
+
+  .columns.columns15 > div > div:first-child::after {
+    height: 5px;
+  }
 }
