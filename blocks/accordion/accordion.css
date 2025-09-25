@@ -1,8 +1,8 @@
+/* stylelint-disable no-descending-specificity */
 .accordion details {
   border: 1px solid #dadada;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
 .accordion details + details {
   margin-top: 24px;
 }
@@ -58,4 +58,82 @@
 .accordion details[open] .accordion-item-body {
   border-top: 1px solid #dadada;
   background-color: var(--background-color);
+}
+
+
+.accordion.accordion10 {
+  background: #fff;
+  max-width: 520px;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.accordion.accordion10 details {
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #e5e5e5;
+  display: block;
+}
+
+.accordion.accordion10 details:last-child {
+  border-bottom: none;
+}
+
+.accordion.accordion10 summary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 0 0 18px;
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  list-style: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: #27408B;
+  gap: 8px;
+  border-radius: 0;
+  outline: none;
+}
+
+.accordion.accordion10 summary::-webkit-details-marker {
+  /* Use browser default marker for chevron */
+
+  /* If you want to hide and use a custom marker, you must use content, which is not allowed */
+}
+
+.accordion.accordion10 summary p {
+  margin: 0;
+  color: #27408B;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.accordion.accordion10 .accordion-item-body {
+  padding: 8px 0 12px 18px;
+  color: #333;
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  display: block;
+}
+
+@media (width <= 600px) {
+  .accordion.accordion10 {
+    max-width: 100%;
+  }
+
+  .accordion.accordion10 summary,
+  .accordion.accordion10 .accordion-item-body {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 4px;
+  }
 }
