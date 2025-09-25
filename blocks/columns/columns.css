@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -30,4 +31,203 @@
     flex: 1;
     order: unset;
   }
+}
+
+
+.columns.columns13 {
+  background: #f2f2f2;
+  border-bottom: 2px solid #ffd700;
+  padding: 40px 0 28px;
+}
+
+.columns.columns13 > div {
+  display: grid;
+  grid-template-columns: 1fr minmax(160px,200px) 1.07fr;
+  align-items: center;
+  gap: 28px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: 170px;
+}
+
+@media (width <= 900px) {
+  .columns.columns13 > div {
+    grid-template-columns: 1fr;
+    gap: 26px;
+    max-width: 96vw;
+    padding: 0 12px;
+  }
+}
+
+/* Left: text column */
+.columns.columns13 > div > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  color: #222;
+  font-size: 15px;
+  line-height: 1.5;
+  min-width: 210px;
+  padding-left: 10px;
+}
+
+.columns.columns13 a {
+  color: #009fe3;
+  text-decoration: underline;
+}
+
+.columns.columns13 a:hover {
+  color: #0073b1;
+}
+
+/* Center: image column */
+.columns.columns13 > div > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  min-height: 120px;
+  padding: 0;
+}
+
+.columns.columns13 > div > div:nth-child(2) img {
+  display: block;
+  background: #fff;
+  border: 8px solid #fff;
+  box-shadow: 0 6px 16px rgb(0 0 0 / 16%);
+  border-radius: 10px;
+  width: 170px;
+  height: 120px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+/* Right: form column */
+.columns.columns13 > div > div:nth-child(3) {
+  display: grid;
+  grid-template-areas:
+    "input1 input2"
+    "button button";
+  grid-template-columns: 130px 130px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 18px;
+  min-width: 290px;
+}
+
+@media (width <= 899px) {
+  .columns.columns13 > div > div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .columns.columns13 > div > div:nth-child(3) > p:nth-child(1),
+  .columns.columns13 > div > div:nth-child(3) > p:nth-child(2) {
+    display: block;
+    width: 100%;
+    min-width: 90px;
+    margin-bottom: 12px;
+    margin-right: 0;
+    height: 38px;
+    padding: 0 12px;
+    background: #fff;
+    border: 1.3px solid #ccc;
+    border-radius: 5px;
+    color: #222;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  .columns.columns13 > div > div:nth-child(3) > p:nth-child(3) {
+    margin-top: 18px;
+    min-width: 140px;
+    max-width: 100%;
+    padding: 0 18px;
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+/* Inputs: side by side (desktop), styled as fields */
+.columns.columns13 > div > div:nth-child(3) > p:nth-child(1) {
+  grid-area: input1;
+  justify-self: end;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 130px;
+  height: 38px;
+  padding: 0 16px;
+  background: #fff;
+  border: 1.3px solid #ccc;
+  border-radius: 5px;
+  color: #222;
+  font-size: 16px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.columns.columns13 > div > div:nth-child(3) > p:nth-child(2) {
+  grid-area: input2;
+  justify-self: start;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 130px;
+  height: 38px;
+  padding: 0 16px;
+  background: #fff;
+  border: 1.3px solid #ccc;
+  border-radius: 5px;
+  color: #222;
+  font-size: 16px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+/* Button below inputs, centered, with limited width */
+.columns.columns13 > div > div:nth-child(3) > p:nth-child(3) {
+  grid-area: button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffd700;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #222;
+  font-size: 17px;
+  height: 48px;
+  min-width: 140px;
+  max-width: 272px;
+  width: 100%;
+  padding: 0 24px;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 11%);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-align: center;
+  letter-spacing: .02em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Icon inside button */
+.columns.columns13 > div > div:nth-child(3) > p:nth-child(3) img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Remove extra paragraph margin for a tighter feel */
+.columns.columns13 > div > div > p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
