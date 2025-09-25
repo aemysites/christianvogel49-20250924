@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -5,8 +6,16 @@
 
 .hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  padding: 0;
+  min-height: 200px;
+  background: url('https://s7g10.scene7.com/is/image/aldi/HOFER_e-novice_HEADER-1?$E21-XL$') center center / cover no-repeat;
+  width: 100vw;
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 .hero h1,
@@ -60,7 +69,6 @@
   overflow: visible;
 }
 
-/* Heading styles for card hero */
 .hero.hero12 h2 {
   font-size: 21px;
   font-weight: 700;
@@ -69,13 +77,11 @@
   line-height: 1.2;
 }
 
-/* Bold subheading remains bold and dark */
 .hero.hero12 strong {
   font-weight: 700;
   color: #333;
 }
 
-/* Paragraph tweaks for clear separation & balance */
 .hero.hero12 p {
   color: #333;
   font-size: 15px;
@@ -87,12 +93,191 @@
   margin-bottom: 0;
 }
 
-/* Responsive: reduce padding, keep visual balance */
 @media (width <= 800px) {
   .hero.hero12 {
     max-width: 98vw;
     padding: 22px 10px 20px;
     border-radius: 8px;
     box-shadow: 0 2px 16px rgb(0 0 0 / 6%), 0 7px 0 0 #ffd600;
+  }
+}
+
+
+.hero-container > .hero-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero > div:first-child {
+  width: 0;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  flex: 0 0 0%;
+}
+
+.hero > div:last-child {
+  flex: 0 1 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  background: none;
+  padding: 0;
+  z-index: 2;
+  width: 100%;
+  max-width: 650px;
+}
+
+.hero > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.hero h2 {
+  margin: 0 0 -27px;
+  background: #233986;
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 700;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 3px;
+  box-shadow: 0 2px 16px 0 rgb(0 0 0 / 7%);
+  letter-spacing: 0.01em;
+  line-height: 1.22;
+  align-self: center;
+  position: relative;
+  z-index: 2;
+}
+
+.hero > div:last-child > div > p:first-of-type {
+  margin: 0 0 13px;
+  background: #fff;
+  color: #222;
+  font-weight: 700;
+  display: inline-block;
+  padding: 13px 24px;
+  border-radius: 2.5px;
+  font-size: 1.05rem;
+  box-shadow: 0 3px 14px 0 rgb(0 0 0 / 13%);
+  position: relative;
+  top: -22px;
+  left: 0;
+  z-index: 1;
+  align-self: center;
+}
+
+.hero > div:last-child > div > p {
+  color: #222;
+  font-size: 1rem;
+  margin: 0 0 6px;
+  background: none;
+  box-shadow: none;
+  font-weight: 400;
+  align-self: center;
+  max-width: 500px;
+  text-align: left;
+}
+
+.hero > div:last-child > div > p:last-child {
+  margin-bottom: 0;
+}
+
+.hero > div:last-child > div::after {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 0;
+  width: 58px;
+  height: 58px;
+  background: #ffd500;
+  border-radius: 50%;
+  box-shadow: 0 2px 9px 0 rgb(0 0 0 / 13%);
+  content: "";
+  z-index: 2;
+  align-self: center;
+}
+
+@media (width <= 900px) {
+  .hero {
+    min-height: 140px;
+    width: 100vw;
+  }
+
+  .hero > div {
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .hero > div:last-child {
+    max-width: 99vw;
+    padding: 0 2vw;
+    align-items: center;
+  }
+
+  .hero > div:last-child > div {
+    width: 100%;
+    max-width: 99vw;
+    align-items: center;
+  }
+
+  .hero h2, .hero > div:last-child > div > p:first-of-type {
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .hero h2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: -18px;
+  }
+
+  .hero > div:last-child > div > p:first-of-type {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: -15px;
+  }
+
+  .hero > div:last-child > div::after {
+    width: 38px;
+    height: 38px;
+    margin-top: 10px;
+  }
+}
+
+@media (width <= 600px) {
+  .hero {
+    min-height: 70px;
+  }
+
+  .hero > div:last-child {
+    max-width: 100vw;
+    padding: 0 1vw;
+  }
+
+  .hero > div:last-child > div::after {
+    width: 28px;
+    height: 28px;
+    margin-top: 8px;
   }
 }
